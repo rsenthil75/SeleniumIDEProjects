@@ -1,0 +1,614 @@
+{
+  "id": "f7adfce4-89bc-44d9-8e73-2e44c8a06992",
+  "version": "2.0",
+  "name": "Test_MyWebApp",
+  "url": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+  "tests": [{
+    "id": "15f0245b-9aca-4995-9942-3b0c5e276a35",
+    "name": "WA_T1",
+    "commands": [{
+      "id": "4c7fccac-cb5a-4f5f-898f-f3f49efc0b27",
+      "comment": "",
+      "command": "open",
+      "target": "/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd54ebdc-0bd1-4135-b07e-feccaf831448",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "711x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31feb9ec-8453-422f-a8bf-2a17138e3d26",
+      "comment": "",
+      "command": "click",
+      "target": "id=prky",
+      "targets": [
+        ["id=prky", "id"],
+        ["css=#prky", "css:finder"],
+        ["xpath=//input[@id='prky']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e198e9ae-3a31-41db-ac5f-9cfbabdb4896",
+      "comment": "",
+      "command": "click",
+      "target": "id=rkwd",
+      "targets": [
+        ["id=rkwd", "id"],
+        ["css=#rkwd", "css:finder"],
+        ["xpath=//input[@id='rkwd']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d21631-98fd-4c3a-8210-abe77f83a3fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f06dc7-af20-43d4-9bb1-2faa6419cce3",
+      "comment": "",
+      "command": "click",
+      "target": "id=prvt",
+      "targets": [
+        ["id=prvt", "id"],
+        ["css=#prvt", "css:finder"],
+        ["xpath=//input[@id='prvt']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4559b83b-8969-42c3-8ee2-8c9518262c41",
+      "comment": "",
+      "command": "click",
+      "target": "id=prvt",
+      "targets": [
+        ["id=prvt", "id"],
+        ["css=#prvt", "css:finder"],
+        ["xpath=//input[@id='prvt']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "405171b0-c51b-45e3-8bad-94578a434456",
+      "comment": "",
+      "command": "click",
+      "target": "id=rkwd",
+      "targets": [
+        ["id=rkwd", "id"],
+        ["css=#rkwd", "css:finder"],
+        ["xpath=//input[@id='rkwd']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3d4a0d-9ec9-41b9-aafb-e452beddb237",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "207832f1-5069-43d2-a4d9-7b90f485e604",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caad9911-92f6-4d1b-b3a4-543e9b7916d7",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "id=prky",
+      "targets": [
+        ["id=prky", "id"],
+        ["css=#prky", "css:finder"],
+        ["xpath=//input[@id='prky']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9c897b-1fc0-4e5c-88b6-8bbe8b8ebc99",
+      "comment": "",
+      "command": "click",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10575d5-aaef-4797-8d1a-2a116b2dd2fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3133f07-09f5-4595-b2c7-540c9f6fb72e",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed15b23f-3b6e-4162-b589-f0042ef61199",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aabb547c-0181-453a-ad29-0cfc7d193b6f",
+    "name": "WA_T2",
+    "commands": [{
+      "id": "9e3db5f8-e3a9-4f2c-aa57-ee8bc0490eb9",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30893318-4501-4ab3-b81d-4b37064a0267",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "873x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66dc30c6-3c4c-4fc3-84ae-f4632696a0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=(//input[@name='color'])[2]", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16717575-ccd6-407c-b7cd-153a2dac97a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(18)",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0688dfad-6e05-4802-a5bc-b03e7c00ea42",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f13158f4-c498-4949-a675-97c17fb9ba4f",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "css=input:nth-child(18)",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb6b1ef-e518-421e-8f10-6172ba6b88d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=color",
+      "targets": [
+        ["name=color", "name"],
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@name='color']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4db51ad9-af95-48f4-aa24-9a07e7c141cc",
+      "comment": "",
+      "command": "verifyChecked",
+      "target": "xpath=//input[@name='color']",
+      "targets": [
+        ["name=color", "name"],
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@name='color']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a390f5a3-1bf6-4cc7-bfea-ff6e8edac4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(18)",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe0b577-0dd8-4842-81f9-f6e9dffb8d66",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "css=input:nth-child(18)",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90740081-f0a7-45c1-8f49-ca7f392cfaf3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4267a3b6-15dd-4039-ac14-c345efd752a9",
+    "name": "WA_T3",
+    "commands": [{
+      "id": "d61ece84-3fe3-4bcf-92de-763f4e373d19",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04475941-dd23-49ee-99fa-d04f49c5fef3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "686x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7613e309-07f4-4f22-b285-116590147824",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectTest1",
+      "targets": [
+        ["id=selectTest1", "id"],
+        ["css=#selectTest1", "css:finder"],
+        ["xpath=//select[@id='selectTest1']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c28b1c-0066-4dac-b521-82671a003e5b",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectTest1",
+      "targets": [],
+      "value": "label=New York"
+    }, {
+      "id": "c2286cc8-bb33-46e2-8c46-ede205c514b5",
+      "comment": "",
+      "command": "assertSelectedValue",
+      "target": "id=selectTest1",
+      "targets": [],
+      "value": "Newyork"
+    }, {
+      "id": "424b14a0-8638-4253-b16b-c01cc4dc86f1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4d49766f-b27b-442b-9979-7d0d1284e9f5",
+    "name": "WA_T4",
+    "commands": [{
+      "id": "4f7a74e0-0c6f-473e-b389-be666b3f839f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee659aaa-270f-4354-a5fb-fc3c7970afe2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "686x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1fd1ce8-8991-40aa-a997-a531907a1b76",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13fbb043-3e47-4af8-948b-7ba76f742a61",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 0')]", "xpath:innerText"]
+      ],
+      "value": "Row2, Data 0"
+    }, {
+      "id": "546775db-2145-466a-bb27-0ca8b8fea0c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a48f476-a955-4bbd-b002-3192dc86546f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e7a5bd2-140f-4ee2-8320-467ceb0b87c9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3cf662-e71f-4178-a71f-d33fa3bc8ca7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": "Row3, Data 1"
+    }, {
+      "id": "b532cf2e-4043-478c-acf1-2e56b49db133",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "336cd2a3-94b8-43b1-b210-fbe8fcc5bd0a",
+    "name": "WA_T5",
+    "commands": [{
+      "id": "0263da8c-f942-48a4-a92d-d0e7e92ce12d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f950c2-9f3a-41fe-b439-1e34b758ed48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "686x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6c7054a-d8c0-4f4d-bb30-ad35d465efb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "959384ac-d4df-4b09-b21c-992338165b6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "John"
+    }, {
+      "id": "6d0103de-d9de-4005-868c-c168c9df9ef3",
+      "comment": "",
+      "command": "click",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ac6cf0-f784-4423-a68c-b2868e170f04",
+      "comment": "",
+      "command": "type",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "Ferry"
+    }, {
+      "id": "b844d260-e750-49e5-80d9-b1ba21a9f512",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de96c3c-7148-4f04-a4f9-38e0b813a9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65197caf-b9f9-4083-99b9-0572bcda1077",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "John"
+    }, {
+      "id": "9ce24872-b21b-42ed-a668-2abb5a6627ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "483284f0-f1bf-4976-8ac9-f94313206edf",
+      "comment": "",
+      "command": "click",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0716494a-68bd-46df-918e-8998082f5dd2",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4831f4-793f-4d61-8728-1c9ac6c91f53",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "Ferry"
+    }, {
+      "id": "6623812e-890f-4268-bc2f-f0e8c33e6cb1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8381bbfb-2d2e-4ea6-bbde-e6306fdf22aa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7cffc670-3f28-444a-8c21-7cd4e69216c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["15f0245b-9aca-4995-9942-3b0c5e276a35"]
+  }],
+  "urls": ["http://localhost:63342/", "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html"],
+  "plugins": []
+}

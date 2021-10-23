@@ -1,0 +1,184 @@
+{
+  "id": "f195400b-9119-46f2-9478-34b544a4733a",
+  "version": "2.0",
+  "name": "MyWebApp",
+  "url": "http://localhost:63342",
+  "tests": [{
+    "id": "ce556121-d867-485d-a415-6a1006a93578",
+    "name": "Test1",
+    "commands": [{
+      "id": "adacbce7-8741-4b04-babe-661156042958",
+      "comment": "",
+      "command": "open",
+      "target": "/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23b5ca99-14e2-4b04-be7d-c9b5961efa3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x1021",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4454830-00a3-4756-ac90-b697286e14a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=rkwd",
+      "targets": [
+        ["id=rkwd", "id"],
+        ["css=#rkwd", "css:finder"],
+        ["xpath=//input[@id='rkwd']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9530e293-2c01-45d6-846c-60f82d3f666b",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=rkwd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9129dd8c-53a9-4e13-8219-e5fb26698e3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=prvt",
+      "targets": [
+        ["id=prvt", "id"],
+        ["css=#prvt", "css:finder"],
+        ["xpath=//input[@id='prvt']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "052a92a5-bb27-450c-a5e5-145b88a3d3b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=prky",
+      "targets": [
+        ["id=prky", "id"],
+        ["css=#prky", "css:finder"],
+        ["xpath=//input[@id='prky']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc1e503-6640-42e1-a7fa-170058b51869",
+      "comment": "",
+      "command": "click",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ba5f578-60ad-47b0-8bbb-fe4fa0bb6f20",
+      "comment": "",
+      "command": "click",
+      "target": "id=frsmwlt",
+      "targets": [
+        ["id=frsmwlt", "id"],
+        ["css=#frsmwlt", "css:finder"],
+        ["xpath=//input[@id='frsmwlt']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3e51a3-ed6d-4b3e-94c6-6fccdf0b0815",
+      "comment": "",
+      "command": "click",
+      "target": "id=rkwd",
+      "targets": [
+        ["id=rkwd", "id"],
+        ["css=#rkwd", "css:finder"],
+        ["xpath=//input[@id='rkwd']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a860131e-07c9-4989-9b5e-b77a6efe81b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9631834a-06ed-41de-9ebb-c7d321635f68",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54bd8c4e-4e5c-4006-9142-197ed180f80c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b10a46a9-884a-4fc8-bfee-d55e4d4fe1eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb64017-0ccd-46f5-98dc-08adb4d4cabe",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "906f986b-b2b4-4f05-9519-f5a4cd8ae223",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=rkwd",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d67c6f7-eb96-4f19-b943-565c5ef963f1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Check Box demo\\nParkway School District\\nRockwood School District\\nFort Samwalt\\nPrivate\\n-------------------------------------------------------------\\nRadio Button demo\\n\"Red\"\\n\"Green\"\\n\"Blue\"\\n\"Purple\"\\n-------------------------------------------------------------\\nSelect option Demo\\nSelect a city from the below list:\\n    Chicago\\nSt Louis\\nNew York\\nDetroit\\n-------------------------------------------------------------\\n\\nSelect a city from the below list:\\n        Chennai\\nMadurai\\nTrichy\\nErode\\n-------------------------------------------------------------\\n\\n\\n\\nSelect an Option from the list:\\n        Yes\\nNo\\nDon't know\\nMaybe\\n\\n-------------------------------------------------------------\\n\\n\\nTable Demo\\n\\nRow1, Data 0 Row1, Data 1\\nRow2, Data 0 Row2, Data 1\\nRow3, Data 0 Row3, Data 1\\n-------------------------------------------------------------\\n\\nText and Button demo\\n\\nFirst name:\\nLast name:"
+    }]
+  }],
+  "suites": [{
+    "id": "9dfcd379-3616-4e05-8bf6-3ed36eb8e89b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce556121-d867-485d-a415-6a1006a93578"]
+  }],
+  "urls": ["http://localhost:63342/"],
+  "plugins": []
+}

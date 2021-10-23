@@ -1,0 +1,188 @@
+{
+  "id": "af4d7488-eb92-432b-861c-a202b1108ec9",
+  "version": "2.0",
+  "name": "HelloSelenium",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "b9b9e4ae-352c-4695-a9c9-3853416210b5",
+    "name": "Google_Test1",
+    "commands": [{
+      "id": "772880b3-4aac-4a85-94a9-1a5334d66d0c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de5e2a7f-6ac0-48c5-98e7-90ca90be5759",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1787x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74d19652-4a94-436a-897d-0301fe13bc18",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c273cb5-d58c-4a94-8fcd-20bef74cda80",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "c87dac35-45b9-403a-903f-ed1d4c8d7385",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d004ee22-d77c-49e2-ad69-edab3f301c12",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(3) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "348d8014-d02e-484e-8f87-2de5336b3fe1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Selenium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56cd6971-8895-42b6-a71f-a5ba810690e1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cef898ca-fe3a-4163-9d41-1773f6d54431",
+    "name": "Google_Test2",
+    "commands": [{
+      "id": "9f582517-13ef-4195-9fc8-b123fbd5159c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d8677be-2664-4cf8-bb8c-bc31c1b6c2dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1787x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64d663f1-b201-4fe0-8f17-bc1123ace128",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b4d4c4-46bb-4908-9e37-add2ec221505",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "St Louis"
+    }, {
+      "id": "8d4c2e70-ba6a-4b7c-9031-d8fb3a9734ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b267342-5d6b-40cf-8f6d-0c33391705a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(1) > div:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(1) > div:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[3]/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[3]/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'St. Louis - Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fadcbe9f-093a-42ec-b1c4-ec6b16cf59dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#n-contents span",
+      "targets": [
+        ["css=#n-contents span", "css:finder"],
+        ["xpath=//li[@id='n-contents']/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/nav/div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Contents')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a2ab268-3be9-447e-b8ee-e8572674441e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Wikipedia:Contents - Wikipedia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "069cdae3-d737-4890-923e-2ec7cc030c96",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65931569-72cb-4389-b29a-4c4de57ac31b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9b9e4ae-352c-4695-a9c9-3853416210b5"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

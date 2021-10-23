@@ -1,0 +1,189 @@
+{
+  "id": "94f34ac6-ca24-4df0-8c41-1251228f7ac6",
+  "version": "2.0",
+  "name": "HelloSelenium",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "4ad01c0d-a350-4aef-aa93-5c93950afd3e",
+    "name": "Google-Search-Selenium",
+    "commands": [{
+      "id": "5cbebdcc-5ed0-458a-ba5d-7ab7a7ef6de7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97351e0d-261b-4807-9ce0-7cccb21a00b5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1654x971",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bf70418-f720-4d04-bdac-9a072ae223ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "e02c950d-2016-4650-8fa1-8df30a6efe04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be7b284-2c8e-4270-8947-d9c270cb2010",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(3) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa27b84c-4b64-4c86-a917-d6e488d39d6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selenium-ide:nth-child(1)",
+      "targets": [
+        ["css=.selenium-ide:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Read more')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://selenium.dev/selenium-ide/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0871316-f551-4151-bbce-f50dd7103cea",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Selenium IDE · Open source record and playback test automation for the web",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d510f3a6-7de8-4513-a895-0b86867d4cee",
+    "name": "https://www.walmart.com/",
+    "commands": [{
+      "id": "53001382-4675-45a9-b846-61a0287fb67e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.walmart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a08f4c23-738a-4e80-a20e-af5797d17f5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1654x971",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14311d67-a874-4564-825a-23d3d321df77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.relative:nth-child(3) > .items-center",
+      "targets": [
+        ["css=.relative:nth-child(3) > .items-center", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa9124b-9727-4a1f-a193-3db155c08d9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.relative:nth-child(3) > .items-center",
+      "targets": [
+        ["css=.relative:nth-child(3) > .items-center", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "208e5724-1766-4044-945f-0f4248905586",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=All Services",
+      "targets": [
+        ["linkText=All Services", "linkText"],
+        ["css=.relative:nth-child(3) > .absolute .b", "css:finder"],
+        ["xpath=//a[contains(text(),'All Services')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/services')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "639a12e0-99e9-47a2-af50-dc323e475c80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header-flyout__department-button--active",
+      "targets": [
+        ["css=.header-flyout__department-button--active", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/div/div/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Auto Care Center Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "183f3c65-4094-4c9b-8c97-c04ac7de07c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header-flyout__department-button--active",
+      "targets": [
+        ["css=.header-flyout__department-button--active", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/div/div/div/ul/li/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Auto Care Center Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1267d43-5eb9-44fe-ae6e-bea1f094af05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book your COVID-19 Vaccine",
+      "targets": [
+        ["linkText=Book your COVID-19 Vaccine", "linkText"],
+        ["css=.mt3:nth-child(2) > .mid-gray", "css:finder"],
+        ["xpath=//a[contains(text(),'Book your COVID-19 Vaccine')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/div/span/header/div/div[2]/div/div/div[2]/ul/div/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.walmart.com/cp/flu-shots-immunizations/1228302?adid=1500000000000040438452')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Book your COVID-19 Vaccine')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9f173fb9-93c9-4223-8e9c-81b124748202",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ad01c0d-a350-4aef-aa93-5c93950afd3e"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

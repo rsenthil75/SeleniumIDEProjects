@@ -1,0 +1,501 @@
+{
+  "id": "ae6392a1-7323-4614-9c3c-bdbad0067a8f",
+  "version": "2.0",
+  "name": "MyWebApp2",
+  "url": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+  "tests": [{
+    "id": "0090c133-a44e-41d4-8ca4-12b0367decab",
+    "name": "T1",
+    "commands": [{
+      "id": "3f6c4516-5683-438c-bac0-2c85c4b7bd84",
+      "comment": "",
+      "command": "open",
+      "target": "/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c3fd5f8-e2e3-43d7-959f-7d6d509bfc26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6623e95d-9214-4323-ad99-b486f45bcf0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=(//input[@name='color'])[2]", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6bb104-d225-4a3f-8ec2-83653ff5d065",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": "Check Box demo\\nParkway School District\\nRockwood School District\\nFort Samwalt\\nPrivate\\n-------------------------------------------------------------\\nRadio Button demo\\n\"Red\"\\n\"Green\"\\n\"Blue\"\\n\"Purple\"\\n-------------------------------------------------------------\\nSelect option Demo\\nSelect a city from the below list:\\n    Chicago\\nSt Louis\\nNew York\\nDetroit\\n-------------------------------------------------------------\\n\\nSelect a city from the below list:\\n        Chennai\\nMadurai\\nTrichy\\nErode\\n-------------------------------------------------------------\\n\\n\\n\\nSelect an Option from the list:\\n        Yes\\nNo\\nDon't know\\nMaybe\\n\\n-------------------------------------------------------------\\n\\n\\nTable Demo\\n\\nRow1, Data 0 Row1, Data 1\\nRow2, Data 0 Row2, Data 1\\nRow3, Data 0 Row3, Data 1\\n-------------------------------------------------------------\\n\\nText and Button demo\\n\\nFirst name:\\nLast name:"
+    }, {
+      "id": "87451bcd-a0c4-4d47-8a70-5c65945a17a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=color",
+      "targets": [
+        ["name=color", "name"],
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@name='color']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b122449-93a8-454a-b8fc-175ac3c0f487",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "name=color",
+      "targets": [
+        ["name=color", "name"],
+        ["css=input:nth-child(14)", "css:finder"],
+        ["xpath=//input[@name='color']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc236e8-865b-445e-b8e9-2ea5a5896575",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@name='color'])[3]",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52faa477-b685-4c82-b476-92b19ca3896e",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(16)",
+      "targets": [
+        ["css=input:nth-child(16)", "css:finder"],
+        ["xpath=(//input[@name='color'])[2]", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aad9899-6a6c-4362-b004-aa8e91789d79",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c0c9ba-c89f-4ab3-baee-0fe8e93f97c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(18)",
+      "targets": [
+        ["css=input:nth-child(18)", "css:finder"],
+        ["xpath=(//input[@name='color'])[3]", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ff3f147-2776-4258-91fc-9da7edf825ef",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ca4db38f-f360-45c0-82c3-332416ad1d41",
+    "name": "T2",
+    "commands": [{
+      "id": "4511d653-cdef-49cf-b2d6-a39bbb9f25be",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4231c871-ec32-45b6-bbe3-e830f1d2eaf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7835e1ab-3c0c-4087-a081-db131b3eb204",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectTest1",
+      "targets": [
+        ["id=selectTest1", "id"],
+        ["css=#selectTest1", "css:finder"],
+        ["xpath=//select[@id='selectTest1']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "575cad61-80eb-4a2b-bb73-82f559f432f6",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectTest1",
+      "targets": [],
+      "value": "label=St Louis"
+    }, {
+      "id": "9cbd7e3f-4911-4c77-815d-ffa914ad69a7",
+      "comment": "",
+      "command": "assertSelectedValue",
+      "target": "id=selectTest1",
+      "targets": [],
+      "value": "St_Louis"
+    }, {
+      "id": "5abb4d5b-2680-498c-98f3-0d9477893877",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectTest2",
+      "targets": [
+        ["id=selectTest2", "id"],
+        ["css=#selectTest2", "css:finder"],
+        ["xpath=//select[@id='selectTest2']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80fa1260-4e00-4de9-ac99-c8142981ebe7",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectTest2",
+      "targets": [],
+      "value": "label=Trichy"
+    }, {
+      "id": "6927d088-9159-4c8b-8514-cd3524da97d0",
+      "comment": "",
+      "command": "assertSelectedValue",
+      "target": "id=selectTest2",
+      "targets": [],
+      "value": "Trichy"
+    }, {
+      "id": "fac200c3-459f-4432-b677-ef89c9caafb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectTest3",
+      "targets": [
+        ["id=selectTest3", "id"],
+        ["css=#selectTest3", "css:finder"],
+        ["xpath=//select[@id='selectTest3']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3a3237-daa4-4dae-9b44-ce981033cf8e",
+      "comment": "",
+      "command": "assertSelectedValue",
+      "target": "id=selectTest3",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "4ea6b278-d21e-4413-a0dc-b57153516072",
+      "comment": "",
+      "command": "assertSelectedValue",
+      "target": "id=selectTest3",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "89aa6e60-4294-4ebd-bc16-6d99c7edb386",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectTest3",
+      "targets": [],
+      "value": "label=Don't know"
+    }, {
+      "id": "8f767e56-6065-4426-ade4-832e033b337e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "15db515c-ec78-4225-9fe2-a994f039e0c4",
+    "name": "T3",
+    "commands": [{
+      "id": "2e8416b6-066c-4cba-b670-aaac7351c8d5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "050ae0da-1cb8-43ae-9140-f002557fddd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51a1689a-7921-467e-990c-f091544dfbe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(1) > b",
+      "targets": [
+        ["css=td:nth-child(1) > b", "css:finder"],
+        ["xpath=//td/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Row1, Data 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67d09ae6-435f-4366-b6f1-a34816b39c88",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "579fe46b-dbe4-484f-bea9-3e8037318bb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11056002-0bc9-417e-99ae-dcec15c878d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row1, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "481f192b-c9b6-42ba-8dcc-e1c7ce62186b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c3c3a5-d79d-4d17-ae5b-b5995aa556a9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row2, Data 1')]", "xpath:innerText"]
+      ],
+      "value": "Row2, Data 1"
+    }, {
+      "id": "a6deb675-b2d9-4757-9e37-ac700f008926",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19885341-9a40-4a49-a7ce-bbc5f7a28902",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(3) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Row3, Data 1')]", "xpath:innerText"]
+      ],
+      "value": "Row3, Data 1"
+    }, {
+      "id": "871943e4-b265-4395-8adc-b57eec190531",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "50f558a5-f30f-452f-aa32-8f5f1a8e7c06",
+    "name": "T4",
+    "commands": [{
+      "id": "4a2e718d-d6bc-4286-8613-b20c83585077",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed11d50c-d73c-4129-ab90-8ef44e9ad2ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "966x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6f3b127-c330-4109-a69d-9f716e3593f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28cc2dca-5b76-4ac5-9bb2-b227db864e89",
+      "comment": "",
+      "command": "type",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "61c89e0d-da15-464d-b37a-9ab513bbd17d",
+      "comment": "",
+      "command": "click",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7381b16-8ed8-47c0-ba4a-151dd7165725",
+      "comment": "",
+      "command": "type",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["name=lname", "name"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "Test2"
+    }, {
+      "id": "7a7aa66b-7a72-4ce2-94d8-97b83672b51d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8d40d3-d163-4eda-8cc9-cb9929eb5ac7",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["name=fname", "name"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "717ec64c-6176-4b10-b97f-1f60152001ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78a5aee8-f557-49ed-ba85-d583490c5250",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b27d16-aeec-4f4b-b626-54960960163b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d7507c9-7aeb-4da3-ba78-0d3e99fdf331",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f412b405-de27-4dca-944b-c9ac007c48f6",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=btn1",
+      "targets": [
+        ["id=btn1", "id"],
+        ["css=#btn1", "css:finder"],
+        ["xpath=//input[@id='btn1']", "xpath:attributes"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "OK"
+    }]
+  }],
+  "suites": [{
+    "id": "20adf235-f768-49b8-915a-11207788ae9f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0090c133-a44e-41d4-8ca4-12b0367decab"]
+  }],
+  "urls": ["http://localhost:63342/", "http://localhost:63342/FirstMavenJavaProject/src/main/webapp/MyWebApp.html"],
+  "plugins": []
+}
